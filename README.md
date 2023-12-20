@@ -22,8 +22,7 @@ Tecnologias utilizadas:
 * JPA
 * Hibernate
 * Lombok
-* MapStruct
-* MySQL
+* Postgresql
 * Junit
 
 <!-- GETTING STARTED -->
