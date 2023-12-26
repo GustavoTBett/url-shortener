@@ -5,10 +5,10 @@
 
 Encurtador de URL utilizando Java, Spring Boot e JPA, para aprendizado. 
 
-Você manda a URL desejada para ser encurtada, e o programa te devolve um código. 
+Você manda a URL desejada para ser encurtada, e o programa te devolve um código verificando a validade no banco de dados. 
 
 ```
-  Exemplo:
+  Exemplo (request body):
   url: https://github.com/GustavoTBett
   
   Retorno:
@@ -53,7 +53,7 @@ Tecnologias utilizadas:
 6. No insomnia teste os endpoins no localhost:8080
 
 ```
-    Exemplo de JSON :
+    Exemplo de JSON (request body):
     {
     "url": "https://github.com/GustavoTBett"
     }
