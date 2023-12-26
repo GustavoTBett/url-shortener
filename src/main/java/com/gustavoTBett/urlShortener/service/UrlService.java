@@ -3,11 +3,7 @@ package com.gustavoTBett.urlShortener.service;
 import com.gustavoTBett.urlShortener.dto.UrlDtoInsert;
 import com.gustavoTBett.urlShortener.model.UrlDto;
 import com.gustavoTBett.urlShortener.repository.UrlRepository;
-import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.time.LocalDateTime;
-import java.util.Base64;
 import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -59,7 +55,7 @@ public class UrlService {
         String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         StringBuilder salt = new StringBuilder();
         Random rnd = new Random();
-        while (salt.length() < 10) { // length of the random string.
+        while (salt.length() < 10) {
             int index = (int) (rnd.nextFloat() * SALTCHARS.length());
             salt.append(SALTCHARS.charAt(index));
         }
