@@ -5,7 +5,7 @@
 
 Encurtador de URL utilizando Java, Spring Boot e JPA, para aprendizado. 
 
-Você manda a URL desejada para ser encurtada, e o programa te devolve um código. 
+Você manda a URL desejada para ser encurtada, e o programa te devolve um código verificando a validade no banco de dados. 
 
 ```
   Exemplo (request body):
