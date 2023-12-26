@@ -7,6 +7,8 @@ Encurtador de URL utilizando Java, Spring Boot e JPA, para aprendizado.
 
 Você manda a URL desejada para ser encurtada, e o programa te devolve um código verificando a validade no banco de dados. 
 
+Desafio proposto por: https://github.com/backend-br/desafios;
+
 ```
   Exemplo (request body):
   url: https://github.com/GustavoTBett
